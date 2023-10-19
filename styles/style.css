@@ -45,6 +45,7 @@ header nav ul{
     display: flex;
     list-style: none;
     justify-content: space-evenly;
+    padding: 0;
 }
 
 header nav ul li{
@@ -58,6 +59,11 @@ header nav ul li{
 
 main {
 
+}
+
+main .top-half img {
+    width: 365.5px;
+    height: 365.5px;
 }
 
 footer {
