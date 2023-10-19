@@ -123,5 +123,15 @@ main .button-link-bottom a {
 }
 
 footer {
+    background-color: #98002E;
+}
 
+footer img {
+
+}
+
+footer p {
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
 }
