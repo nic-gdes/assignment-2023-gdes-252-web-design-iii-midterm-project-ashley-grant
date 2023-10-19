@@ -2,6 +2,7 @@
 h1 {
  font-weight: lighter;
  /*not 100% sure if lighter is the right way to go about making an h1 Helvetica - Regular*/
+ font-size: 2rem;
 
 }
 
@@ -37,6 +38,13 @@ header .top-logo img{
 }
 
 header .top-title {
+    text-align: center;
+}
+
+header nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
 
 }
 
