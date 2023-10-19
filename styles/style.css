@@ -109,6 +109,19 @@ main .bottom-half h2 {
     line-height: 22px;
 }
 
+main .button-link-bottom {
+    background-color: #98002E;
+    border: 2px #98002E solid;
+    border-radius: 25px;
+}
+
+main .button-link-bottom a {
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
 footer {
 
 }
