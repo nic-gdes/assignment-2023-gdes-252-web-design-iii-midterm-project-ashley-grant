@@ -3,15 +3,16 @@ h1 {
  font-weight: lighter;
  /*not 100% sure if lighter is the right way to go about making an h1 Helvetica - Regular*/
  font-size: 2rem;
+ /*might make this "Latest News" a <p> instead on h1 bc h1 is not specified and is automatically bold, so most likely, this isnt meant to be h1*/
 
 }
 
 h2 {
-
+    font-size: 18px;
 }
 
 h3 {
-
+    font-size: 18px;
 }
 
 
@@ -64,6 +65,15 @@ main {
 main .top-half img {
     width: 365.5px;
     height: 365.5px;
+    margin-bottom: 33px;
+}
+
+main h2 {
+    margin-top: 0;
+}
+
+main p {
+    margin-bottom: 36px;
 }
 
 footer {
