@@ -1,10 +1,10 @@
 
 h1 {
- font-weight: lighter;
- /*not 100% sure if lighter is the right way to go about making an h1 Helvetica - Regular*/
- font-size: 2rem;
- /*might make this "Latest News" a <p> instead on h1 bc h1 is not specified and is automatically bold, so most likely, this isnt meant to be h1*/
-
+    font-weight: lighter;
+    /*not 100% sure if lighter is the right way to go about making an h1 Helvetica - Regular*/
+    font-size: 2rem;
+    /*might make this "Latest News" a <p> instead on h1 bc h1 is not specified and is automatically bold, so most likely, this isnt meant to be h1*/
+    line-height: 32px;
 }
 
 h2 {
@@ -56,6 +56,7 @@ header nav ul li{
     border-radius: 25px;
     width: 58px;
     height: 24px;
+    line-height: 14px;
 }
 
 main {
@@ -66,6 +67,18 @@ main .top-half img {
     width: 365.5px;
     height: 365.5px;
     margin-bottom: 33px;
+}
+
+main .line-height-top p{
+    line-height: 19px;
+}
+
+main .line-height-top h2 {
+    line-height: 22px;
+}
+
+main .line-height-bottom p{
+    line-height: 24px;
 }
 
 main h2 {
@@ -79,6 +92,14 @@ main p {
 main hr .solid {
     border-top: 1px solid #98002E;
   }
+
+main .bottom-half {
+    background-color: #F4E2D6;
+}
+
+main .bottom-half img {
+    width: 364px;
+}
 
 footer {
 
