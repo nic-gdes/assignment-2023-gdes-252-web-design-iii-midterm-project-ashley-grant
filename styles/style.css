@@ -45,7 +45,15 @@ header nav ul{
     display: flex;
     list-style: none;
     justify-content: space-evenly;
+}
 
+header nav ul li{
+    padding: 3px;
+    text-align: center;
+    border: #413939 solid;
+    border-radius: 25px;
+    width: 58px;
+    height: 24px;
 }
 
 main {
