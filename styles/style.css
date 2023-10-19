@@ -101,6 +101,14 @@ main .bottom-half img {
     width: 364px;
 }
 
+main .bottom-half p {
+    line-height: 24px;
+}
+
+main .bottom-half h2 {
+    line-height: 22px;
+}
+
 footer {
 
 }
