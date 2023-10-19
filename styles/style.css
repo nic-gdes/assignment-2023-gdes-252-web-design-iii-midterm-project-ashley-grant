@@ -1,3 +1,17 @@
+
+h1 {
+
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+
 body {
     /*TYPOGRAPHY*/
     font-family: Arial, Helvetica, sans-serif;
@@ -8,12 +22,15 @@ body {
 }
 
 header {
-
+    /*text-align: center;*/
 }
 
 header .top-logo img{
     display: block;
+    width: 188px;
     max-width: 100%;
+    margin: auto;
+    padding-top: 50px
 }
 
 header .top-title {
