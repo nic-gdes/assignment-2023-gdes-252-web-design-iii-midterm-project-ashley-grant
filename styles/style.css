@@ -229,3 +229,22 @@ footer p {
     padding-bottom: 24px;
     margin-bottom: 0;
 }
+
+@media screen and (min-width: 1320px) {
+    body {
+        display: grid;
+        grid-template: auto / 1fr 1fr;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 2rem;
+    }
+
+    header .top-logo img{
+        width: 188px;
+        margin: auto;
+        padding-top: 30px;
+        padding-bottom: 64px;
+    }
+
+    
+}
