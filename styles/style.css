@@ -60,19 +60,43 @@ header nav ul li{
     align-items: center;
 }
 
+header nav ul li a{
+    color:#413939;
+    text-decoration: none;
+    background-color: none;
+}
+
 header nav ul .inactive-pill{
     border: #413939 solid;
     border-radius: 25px;
+}
+
+header nav ul .active-pill a {
+    color: #FFFFFF;
 }
 
 header nav ul .active-pill {
     border: none;
     border-radius: 25px;
     background-color: #98002E;
-    color: #FFFFFF;
-    /* padding-top: 6px;
-    padding-bottom: 6px; */
 }
+
+/* header a:active {
+    padding: 3px;
+    text-align: center;
+    width: 58px;
+    height: 24px;
+    line-height: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 25px;
+    background-color: #98002E;
+    color: #FFFFFF;
+
+    here is my code for the active state but for this I just kept the tech section red because it is the one that is selected
+  } */
 
 main {
 
