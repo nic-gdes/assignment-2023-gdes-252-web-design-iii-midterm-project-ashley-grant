@@ -35,6 +35,7 @@ header .top-logo img{
     /*max-width: 100%;*/
     margin: auto;
     padding-top: 30px;
+    padding-bottom: 64px;
 }
 
 header .top-title {
@@ -51,11 +52,26 @@ header nav ul{
 header nav ul li{
     padding: 3px;
     text-align: center;
-    border: #413939 solid;
-    border-radius: 25px;
     width: 58px;
     height: 24px;
     line-height: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav ul .inactive-pill{
+    border: #413939 solid;
+    border-radius: 25px;
+}
+
+header nav ul .active-pill {
+    border: none;
+    border-radius: 25px;
+    background-color: #98002E;
+    color: #FFFFFF;
+    /* padding-top: 6px;
+    padding-bottom: 6px; */
 }
 
 main {
@@ -65,7 +81,7 @@ main {
 main .top-half img {
     width: 365.5px;
     height: 365.5px;
-    margin-bottom: 33px;
+    margin-bottom: 34px;
 }
 
 main .top-half .img-center {
@@ -73,10 +89,23 @@ main .top-half .img-center {
     text-align: center;
 }
 
+main .pizza-padding {
+    padding-top: 78px;
+}
+
+main .mars-padding {
+    padding-top: 90px;
+}
+
+main .coffee-padding {
+    padding-top: 71px;
+}
+
 main .bottom-half .img-center {
     display: block;
     text-align: center;
 }
+
 main .line-height-top p{
     line-height: 19px;
 }
@@ -96,7 +125,7 @@ main h2 {
 }
 
 main p {
-    margin-bottom: 36px;
+    margin: 0;
     text-align: left;
     margin-left: 7.5%;
     margin-right: 7.5%;
@@ -105,11 +134,14 @@ main p {
 main .solid {
     border-top: 1px solid #98002E;
     width: 366px;
-  }
+    margin-top: 70px;
+    margin-bottom: 65px;
+}
 
 main .bottom-half {
     background-color: #F4E2D6;
     margin-top: 128px;
+    padding-bottom: 64px;
 }
 
 main .bottom-half .color-height {
@@ -118,6 +150,14 @@ main .bottom-half .color-height {
 
 main .bottom-half img {
     width: 364px;
+}
+
+main .classroom-padding {
+    padding-bottom: 64px;
+}
+
+main .h2-padding {
+    padding-top: 48px;
 }
 
 main .bottom-half p {
@@ -134,7 +174,8 @@ main .button-link-bottom {
     border-radius: 25px;
     width: 364px;
     height: 50px;
-
+    margin: auto;
+    margin-top: 67px;
 }
 
 main .button-link-bottom a {
@@ -142,6 +183,7 @@ main .button-link-bottom a {
     justify-content: center;
     color: #FFFFFF;
     text-decoration: none;
+    margin-top: 4%
 }
 
 footer {
@@ -149,11 +191,17 @@ footer {
 }
 
 footer img {
-
+    display: block;
+    width: 188px;
+    /*max-width: 100%;*/
+    margin: auto;
+    padding-top: 30px;
 }
 
 footer p {
     display: flex;
     justify-content: center;
     color: #FFFFFF;
+    padding-bottom: 24px;
+    margin-bottom: 0;
 }
