@@ -237,10 +237,15 @@ footer p {
         max-width: 1200px;
         margin: 0 auto;
         padding: 2rem;
+        background-image: url("/images/icon-computer.png");
+        background-repeat: no-repeat;
+        background-position-x:right;
+        background-position-x: 90%;
+        background-position-y: 3%;
+        background-size: 30%;
     }
 
     h1 {
-        font-weight: lighter;
         font-size: 3rem;
         line-height: 58px;
     }
@@ -286,5 +291,15 @@ footer p {
         justify-content: center;
         align-items: center;
     }
+
+    main .top-half img {
+        width: 424px;
+        height: 423px;
+        margin-bottom: 34px;
+    }
     
+    main .top-half .img-center {
+        display: block;
+        text-align: center;
+    }
 }
