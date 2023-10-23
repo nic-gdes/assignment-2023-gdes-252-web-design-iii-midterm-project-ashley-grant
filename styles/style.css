@@ -237,10 +237,12 @@ footer p {
         grid-template-rows: auto; */
         grid-template: 2fr / 1fr 1fr 1fr;
         gap: 2rem;
+        margin-top: 150px;
     }
     
     .grid-item-1 {
         grid-column: 1;
+        margin-left: 34px;
     }
 
     .grid-item-2 {
@@ -319,12 +321,15 @@ footer p {
     }
 
     main .top-half img {
+        width: 365.5px;
+        height: 365.5px;
         margin-bottom: 34px;
     }
 
     main .top-half .pizza {
         width: 727px;
         height: 635px;
+        padding-right: 40px;
     }
 
     main .top-half .img-center {
@@ -337,17 +342,96 @@ footer p {
 
     main .mars-padding {
         padding: 0;
+        margin-top: 40px;
+        margin-left: 35px;
     }
 
     main .coffee-padding {
         padding: 0;
+        margin-top: 40px;
     }
 
     main .solid {
         display: none;
     }
-
     
+    main .top-half p{
+        line-height: 24px;
+    }
+    
+    main .top-half h2 {
+        line-height: 34px;
+    }
+    
+    main h2 {
+        margin-top: 33px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    main .h2-margin {
+        margin-left: 35px;
+    }
+
+    main p {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    main .p-margin {
+        margin-left: 35px;
+    }
+
+    main .bottom-half {
+    background-color: #F4E2D6;
+    margin-top: 128px;
+    padding-bottom: 64px;
+    }
+
+    main .bottom-half img {
+        width: 750px;
+    }
+
+    main .bottom-half h2 {
+        line-height: 34px;
+    }
+
+    .grid-2 {
+        display: grid;
+        grid-template: auto/ 1fr;
+        gap: 2rem;
+        margin-top: 150px;
+    }
+
+    .grid-item-bottom-1 {
+        width: 60%;
+        justify-self: center;
+    }
+
+    .grid-item-bottom-2 {
+        height: 524px;
+    }
+
+    .grid-item-bottom-3 {
+        justify-self: center;
+        width: 60%;
+        margin-right: 33px;
+    }
+
+    .grid-item-bottom-4 {
+        justify-self: center;
+        width: 60%;
+        margin-right: 33px;
+
+    }
+
+    .grid-item-bottom-5 {
+        justify-self: center;
+        width: 60%;
+        margin-right: 33px;
+
+    }
+
 }
 
 @media screen and (min-width: 1920px) {
