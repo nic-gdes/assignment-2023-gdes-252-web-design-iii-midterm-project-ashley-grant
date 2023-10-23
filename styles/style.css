@@ -445,6 +445,7 @@ footer p {
     
     .grid-item-1 {
         grid-column: 1;
+        margin-left: 260px;
     }
 
     .grid-item-2 {
@@ -463,5 +464,39 @@ footer p {
         grid-column: 1;
     }
 
+    header .top-logo img{
+        width: 600px;
+        /*max-width: 100%;*/
+        margin-left: 260px;
+        padding-top: 130px;
+        padding-bottom: 64px;
+    }
+
+    header .top-title {
+        margin-left: 260px;
+    }
+
+    header nav ul{
+        margin-left: 260px;
+    }
+
+    main .top-half img {
+        margin-bottom: 34px;
+    }
+
+    main .top-half .micro {
+        width: 326px;
+        height: 325px;
+    }
+
+    main .top-half .pizza {
+        width: 505px;
+        height: 503px;
+    }
     
+    main .top-half .mars {
+        width: 505px;
+        height: 505px;
+    }
+
 }
