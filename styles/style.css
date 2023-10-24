@@ -441,11 +441,13 @@ footer p {
         grid-template: 2fr / 1fr 1fr 1fr;
         gap: 2rem;
         margin-top: 150px;
+        margin-left: 260px;
+        margin-right: 260px;
     }
     
     .grid-item-1 {
         grid-column: 1;
-        margin-left: 260px;
+        margin-left: 0px;
     }
 
     .grid-item-2 {
@@ -461,6 +463,10 @@ footer p {
     }
 
     .grid-item-5 {
+        grid-column: 2;
+    }
+
+    .grid-item-5 h2 p {
         grid-column: 1;
     }
 
@@ -493,10 +499,74 @@ footer p {
         width: 505px;
         height: 503px;
     }
+
+    main .top-half .pizza {
+        width: 505px;
+        height: 503px;
+        padding-right: 0px;
+    }
     
     main .top-half .mars {
         width: 505px;
         height: 505px;
+    }
+    
+    main .h2-margin {
+        margin-left: 0px;
+    }
+
+    main .p-margin {
+        margin-left: 0px;
+    }
+
+    main .mars-padding {
+        padding: 0;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+
+    main h2 {
+        margin-top: 0px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .grid-2 {
+        display: grid;
+        grid-template: auto/ 1fr;
+        gap: 2rem;
+        margin-top: 150px;
+    }
+
+    .grid-item-bottom-1 {
+        width: 750px;
+        justify-self: center;
+        /* margin-left: 585px;
+        margin-right: 585px; */
+    }
+
+    .grid-item-bottom-2 {
+        height: 524px;
+        width: 750px;
+        justify-self: center;
+        /* margin-left: 585px;
+        margin-right: 585px; */
+    }
+
+    .grid-item-bottom-3 {
+        justify-self: center;
+        width: 750px;
+    }
+
+    .grid-item-bottom-4 {
+        justify-self: center;
+        width: 750px;
+    }
+
+    .grid-item-bottom-5 {
+        justify-self: center;
+        width: 750px;
+        margin-right: 0px;
     }
 
 }
